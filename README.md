@@ -4,7 +4,7 @@ Rivera AI is an AI-powered mental health assistant designed to provide real-time
 
 It aims to make mental health support more accessible, empathetic, and immediate using AI-driven conversations and real-world integrations.
 
-💡 Motivation
+## 💡 Motivation
 
 Mental health support is often difficult to access due to time, cost, or availability barriers. Rivera AI aims to bridge this gap by offering:
 
@@ -17,23 +17,23 @@ Emergency assistance when needed
 
 Engages users in empathetic, human-like conversations using LLM-based responses designed for therapeutic support.
 
-📍 Find Nearby Therapists
+## 📍 Find Nearby Therapists
 
 Helps users discover and connect with licensed mental health professionals based on their needs and location.
 
-🚨 Emergency Support (Twilio Integration)
+## 🚨 Emergency Support (Twilio Integration)
 
 Triggers real-time emergency communication using Twilio API for critical situations.
 
-💬 Conversational Experience
+## 💬 Conversational Experience
 
 Maintains natural, supportive, and emotionally aware dialogue to help users feel heard and understood.
 
-💻 Interactive UI
+## 💻 Interactive UI
 
 Built using Streamlit for a smooth, simple, and user-friendly experience.
 
-⚙️ Tech Stack
+## ⚙️ Tech Stack
 Python
 FastAPI
 Streamlit
@@ -72,21 +72,25 @@ EMERGENCY_CONTACT=target_number
 uvicorn backend.tools:app --reload
 ## Start frontend
 streamlit run frontend.py
+
 🧠 What I Learned
 Building full-stack AI systems with real-time interaction
 Working with LLMs using Hugging Face & LangChain
 Designing empathetic conversational AI systems
 Integrating external APIs like Twilio
 Structuring scalable backend + frontend architecture
+
 ⚠️ Important Notes
 Keep API keys secure (never upload .env to GitHub)
 Twilio calls may require verified numbers
 Hugging Face API may have rate limits depending on plan
+
 ✨ Future Improvements
 🎙️ Voice-based therapy support
 🌍 Multilingual conversations
 📊 Sentiment detection for better responses
 👩‍⚕️ Therapist dashboard for real consultations
+
 🤍 Closing Note
 
 Rivera AI is built with a mission to combine technology + empathy, making mental health support more accessible and human-centered.
