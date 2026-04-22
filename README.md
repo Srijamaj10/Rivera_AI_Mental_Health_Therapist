@@ -35,15 +35,24 @@ Built using Streamlit for a smooth, simple, and user-friendly experience.
 
 ## ⚙️ Tech Stack
 Python
+
 FastAPI
+
 Streamlit
+
 LangChain
+
 Hugging Face (LLMs)
+
 Twilio API
-🚀 Installation Guide
+
+
+## 🚀 Installation Guide
 ## 1. Clone the repository
 git clone https://github.com/Srijamaj10/Rivera_AI_Mental_Health_Therapist.git
+
 cd Rivera_AI_Mental_Health_Therapist
+
 ## 2. Create virtual environment (recommended)
 python -m venv .venv
 
@@ -63,11 +72,16 @@ pip install -r requirements.txt
 Create a .env file:
 
 HUGGINGFACE_API_KEY=your_huggingface_key
+
 TWILIO_SID=your_twilio_sid
+
 TWILIO_AUTH_TOKEN=your_twilio_auth_token
+
 TWILIO_PHONE=your_twilio_number
+
 EMERGENCY_CONTACT=target_number
-▶️ Run the Project
+
+#▶️ Run the Project
 ## Start backend
 uvicorn backend.tools:app --reload
 ## Start frontend
@@ -75,20 +89,29 @@ streamlit run frontend.py
 
 🧠 What I Learned
 Building full-stack AI systems with real-time interaction
+
 Working with LLMs using Hugging Face & LangChain
+
 Designing empathetic conversational AI systems
+
 Integrating external APIs like Twilio
+
 Structuring scalable backend + frontend architecture
 
 ⚠️ Important Notes
 Keep API keys secure (never upload .env to GitHub)
+
 Twilio calls may require verified numbers
+
 Hugging Face API may have rate limits depending on plan
 
 ✨ Future Improvements
 🎙️ Voice-based therapy support
+
 🌍 Multilingual conversations
+
 📊 Sentiment detection for better responses
+
 👩‍⚕️ Therapist dashboard for real consultations
 
 🤍 Closing Note
