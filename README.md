@@ -1,4 +1,4 @@
-# 🌿 Rivera AI – Real-Time AI Mental Health Therapist 🕊️💛
+# 🌿 Rivera AI – Real-Time AI Mental Health Therapist 🕊️
 
 Rivera AI is an AI-powered mental health assistant designed to provide real-time therapeutic support, help users connect with licensed professionals, and simulate emergency interventions when needed.
 
